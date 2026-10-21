@@ -30,7 +30,7 @@ class Cat(Animal):
 
     def cat_sees(self, other):
         super().sees(other)
-
+        
         if isinstance(other, Dog):
             self.hiss()
 
